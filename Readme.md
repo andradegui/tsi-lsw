@@ -1,7 +1,13 @@
-# TSI LSW (Linguagend de script para web)
+# TSI LSW (Linguagens de script para web)
 
 - Repositório criado para criar exercícios da aula de LSW
 
 - Exercício 1 - IMC
 
-- Exercício 2 - NBA
+- Exercício 2 - Soma de pontos times NBA
+
+- Exercício 3 - 
+
+- Exercício 4 - 
+
+- Exercício 5 - 
