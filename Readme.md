@@ -3,3 +3,11 @@
 - Repositório criado para criar exercícios da aula de LSW
 
 - Exercício 1 - IMC
+
+- Exercício 2 - Soma de pontos times NBA
+
+- Exercício 3 - 
+
+- Exercício 4 - 
+
+- Exercício 5 - 
