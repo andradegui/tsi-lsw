@@ -8,6 +8,6 @@
 
 - Exercício 3 - gorjetaOutback
 
-- Exercício 4 - 
+- Exercício 4 - NBA com objeto
 
 - Exercício 5 - 
