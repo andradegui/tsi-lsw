@@ -13,18 +13,7 @@ let dado = {
     }
 }
 
-//criar jogadores
-/**
-o jogador tem: 
-id
-nome
-pontos fixos,
-pontos rodada
-zera pontos
-atualizaDadosRodada
-parar
-*/
-
+//cria jogador 1
 let jogador1 = {
     id: 1,
     nome: "Jogador 1",
@@ -38,7 +27,7 @@ let jogador1 = {
         this.pontosRodada += valor;
         this.imprimir();
     },
-    parar: function() {
+    pararJogo: function() {
         this.pontosFixos += this.pontosRodada;
         this.zerarPontos();
     },
@@ -48,6 +37,7 @@ let jogador1 = {
     }
 }
 
+//cria jogador 2
 let jogador2 = {
     id: 2,
     nome: "Jogador 2",
@@ -61,7 +51,7 @@ let jogador2 = {
         this.pontosRodada += valor;
         this.imprimir();
     },
-    parar: function() {
+    pararJogo: function() {
         this.pontosFixos += this.pontosRodada;
         this.zerarPontos();
     },
@@ -89,17 +79,20 @@ let pig = {
     jogadores:[jogador1, jogador2],
     ijogador: 0,
     alteraJogador: function() {
-        if(this.ijogador == 0)
+        if(this.ijogador === 0)
             this.ijogador = 1        
         else
             this.ijogador= 0
     }, 
     quemEhOJogadorAtual:function(){
         return this.jogadores[this.ijogador];
+    },
+    //parar
+    parar:function(){
+        this.quemEhOJogadorAtual().pararJogo();
+        this.alteraJogador();
     }
-    //jogoParar
     
-    //fazer botao parar apenas
 
 }
 
