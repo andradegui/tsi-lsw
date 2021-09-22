@@ -11,3 +11,5 @@
 - Exercício 4 - NBA com objeto
 
 - Exercício 5 - Pig Game
+
+- Exercício 6 - Par ou Impar Game
