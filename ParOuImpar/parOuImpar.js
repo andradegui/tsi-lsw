@@ -27,7 +27,7 @@ let player2 = {
             this.escolhaPouI = "Impar";
         }
         else {
-            this.escolhaPouI = "Impar";
+            this.escolhaPouI = "Par";
         }
     },
     mostraNumero:function(){
@@ -46,14 +46,12 @@ let jogoParOuImpar = {
         player2.mostraNumero();
 
         if((player1.mostraNumero + player2.mostraNumero) %2 == 0) {
-
             if(player1.escolhaPouI == "Par") {
                 alert("Jogador 1 ganhou!")
             }
             else{
                 alert("Jogador 2 ganhou!");
             }
-
         }
         else {
             if(player1.escolhaPouI == "Impar") {
@@ -64,7 +62,6 @@ let jogoParOuImpar = {
             }
         }
     }
-    
 }
 
 
